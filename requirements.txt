@@ -1,0 +1,17 @@
+mne==1.7.0
+mne-bids==0.14.1
+mne-connectivity==0.7.0
+autoreject==0.4.3
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+scikit-learn==1.5.1
+xgboost==2.1.1
+shap==0.45.1
+matplotlib==3.9.1
+seaborn==0.13.2
+antropy==0.1.6
+nolds==0.5.2
+joblib==1.4.2
+tqdm==4.66.4
+pyprep==0.4.3

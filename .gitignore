@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large raw EEG files (re-downloadable from OpenNeuro)
+data/raw/sub-*/
+
+# Preprocessed epochs (large binary files, re-generatable)
+data/processed/*.fif
+
+# Keep feature matrix and model outputs
+!data/processed/feature_matrix.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
